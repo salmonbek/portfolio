@@ -1,47 +1,34 @@
+import { useRef } from "react";
+import { IoMdMenu } from "react-icons/io";
+import { IoClose } from "react-icons/io5";
+import { IoLogoSkype } from "react-icons/io";
+
 import "./Header.scss";
 
 function Header() {
+  const navRef = useRef();
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
     <header className="header">
-      <div className="container">
-        <nav className="nav">
-          <a className="logo" href="">
-            Portfolio
-          </a>
-          <ul className="nav-list">
-            <li className="nav-list-item">
-              <a href="#" className="nav-list-item__link">
-                Home
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a href="#About" className="nav-list-item__link">
-                About
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a href="#Service" className="nav-list-item__link">
-                Services
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a href="#Skill" className="nav-list-item__link">
-                Skills
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a href="#" className="nav-list-item__link">
-                Work
-              </a>
-            </li>
-            <li className="nav-list-item">
-              <a href="#" className="nav-list-item__link">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <a className="logo" href="">
+        <IoLogoSkype />
+      </a>
+      <nav ref={navRef}>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Skills</a>
+        <a href="">Works</a>
+        <a href="">Contact</a>
+        <buttton className="nav-btn nav-close-btn" onClick={showNavbar}>
+          <IoClose />
+        </buttton>
+      </nav>
+      <button className="nav-btn" onClick={showNavbar}>
+        <IoMdMenu />
+      </button>
     </header>
   );
 }
