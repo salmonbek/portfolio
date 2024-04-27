@@ -12,23 +12,25 @@ function Header() {
   };
   return (
     <header className="header">
-      <a className="logo" href="">
-        <IoLogoSkype />
-      </a>
-      <nav ref={navRef}>
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">Skills</a>
-        <a href="">Works</a>
-        <a href="">Contact</a>
-        <buttton className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <IoClose />
-        </buttton>
-      </nav>
-      <button className="nav-btn" onClick={showNavbar}>
-        <IoMdMenu />
-      </button>
+      <div className="container">
+        <nav ref={navRef}>
+          <a className="logo" href="">
+            <IoLogoSkype />
+          </a>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Skills</a>
+          <a href="">Works</a>
+          <a href="">Contact</a>
+          <buttton className="nav-btn nav-close-btn" onClick={showNavbar}>
+            <IoClose />
+          </buttton>
+        </nav>
+        <button className="nav-btn btn-open" onClick={showNavbar}>
+          <IoMdMenu />
+        </button>
+      </div>
     </header>
   );
 }

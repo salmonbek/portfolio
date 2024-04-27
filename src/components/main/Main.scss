@@ -458,6 +458,28 @@
     }
   }
 }
+@media (max-width: 1044px) {
+  .main {
+    .work {
+      .container {
+        .work-card {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 550px) {
+  .main {
+    .work {
+      .container {
+        .work-card {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 1230px) {
   .articles {

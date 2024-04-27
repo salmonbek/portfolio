@@ -1,15 +1,25 @@
 header {
   position: fixed;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0;
   display: flex;
   width: 100%;
-  background-color: white;
+  background-color: rgb(4, 83, 105);
   z-index: 10;
   color: var(--textColor);
+  box-shadow: 0px 0px 10px 3px black;
   .container {
     display: flex;
-    align-items: center;
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .btn-open * {
+      width: 40px;
+      height: 40px;
+      color: white;
+    }
   }
 }
 
@@ -17,10 +27,13 @@ nav a {
   margin: 0 2rem;
   color: white;
   text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 nav a:hover {
-  color: red;
+  color: rgb(0, 98, 255);
+  transition: 0.3s;
 }
 
 header .nav-btn {

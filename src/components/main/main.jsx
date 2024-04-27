@@ -206,7 +206,7 @@ function Main() {
       {/* skills section */}
 
       {/* work section */}
-      {/* <section className="work" id="projects">
+      <section className="work" id="projects">
         <div className="container">
           <h1 data-aos="zoom-out-down">My Works</h1>
           <div className="work-card">
@@ -346,7 +346,7 @@ function Main() {
             See more
           </a>
         </div>
-      </section> */}
+      </section>
       {/* work section */}
     </main>
   );
