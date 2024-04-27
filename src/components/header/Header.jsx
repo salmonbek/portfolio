@@ -13,10 +13,10 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
+        <a className="logo" href="">
+          <IoLogoSkype />
+        </a>
         <nav ref={navRef}>
-          <a className="logo" href="">
-            <IoLogoSkype />
-          </a>
           <a href="">Home</a>
           <a href="">About</a>
           <a href="">Services</a>
