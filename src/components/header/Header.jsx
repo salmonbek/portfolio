@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
-import { IoLogoSkype } from "react-icons/io";
+import { TbHexagonLetterS } from "react-icons/tb";
 
 import "./Header.scss";
 
@@ -14,7 +14,7 @@ function Header() {
     <header className="header">
       <div className="container">
         <a className="logo" href="">
-          <IoLogoSkype />
+          <TbHexagonLetterS />
         </a>
         <nav ref={navRef}>
           <a href="">Home</a>
@@ -30,6 +30,7 @@ function Header() {
         <button className="nav-btn btn-open" onClick={showNavbar}>
           <IoMdMenu />
         </button>
+        {/* <button>Contact</button> */}
       </div>
     </header>
   );

@@ -1,13 +1,14 @@
 header {
   position: fixed;
   width: 100%;
+  padding: 20px 0;
   background-color: rgb(4, 83, 105);
   z-index: 10;
   color: var(--textColor);
   -webkit-box-shadow: 0px 0px 10px 3px black;
           box-shadow: 0px 0px 10px 3px black;
 }
-header .container nav {
+header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,6 +18,19 @@ header .container nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+header .container .logo * {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+header .container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header .container .btn-open * {
   width: 40px;

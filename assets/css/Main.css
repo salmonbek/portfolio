@@ -15,7 +15,6 @@
   font-weight: 600;
   font-family: Roboto;
   font-size: 50px;
-  margin-bottom: 50px;
   color: #1b075d;
 }
 .main .hero .container .hero-left-p {
@@ -37,6 +36,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 28px;
+  margin-top: 50px;
 }
 .main .hero .container .hero-left-flex__f {
   display: -webkit-box;

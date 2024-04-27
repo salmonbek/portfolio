@@ -11,13 +11,13 @@
           font-weight: 600;
           font-family: Roboto;
           font-size: 50px;
-          margin-bottom: 50px;
           color: #1b075d;
         }
         &-p {
           font-family: Roboto;
           font-size: 21px;
           font-weight: 400;
+
           line-height: 30px;
           letter-spacing: 0em;
           color: #6e7191;
@@ -29,7 +29,7 @@
           display: flex;
           align-items: center;
           gap: 28px;
-
+          margin-top: 50px;
           &__f {
             display: flex;
             align-items: center;
