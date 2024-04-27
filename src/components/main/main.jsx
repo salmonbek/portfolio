@@ -29,16 +29,30 @@ import Project11 from "../../assets/images/Ts-antd.jpg";
 import Project12 from "../../assets/images/Js-sass.jpg";
 import Project0 from "../../assets/images/crud-reactapp.jpg";
 import { SiNetlify } from "react-icons/si";
+// import React from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 // import Video1 from "../../assets/videos/UI-UX-Design-Showreel-2020-Shakib-4K.mp4";
 
 function Main() {
+  const [typeEffect] = useTypewriter({
+    words: ["React Developer", "Javascript Developer"],
+    loop: {},
+    typeSpeed: 100,
+    deleteSpeed: 40,
+  });
   return (
     <main className="main">
       {/* hero section */}
       <section className="hero">
         <div className="container ">
           <div className="hero-left">
-            <h1 className="hero-left-title">Hello, I am Salmonbek</h1>
+            <h1 style={{ margin: "50px" }}>
+              I am a<span>{typeEffect}</span>
+              <span style={{ color: "red" }}>
+                <Cursor cursorStyle="|" />
+              </span>
+            </h1>
+
             <p className="hero-left-p">FrontEnd Developer</p>
             <div className="hero-left-flex">
               <div className="hero-left-flex__f">
@@ -72,11 +86,12 @@ function Main() {
           <div className="about-top">
             <h1>About Me</h1>
             <p>
-              <span>Hey there!</span> I'm Salmonbek I am a website developer and
-              I am currently goining experience in this field. In the developing
-              world infromation technology is becoming popular so I am going to
-              be strong programmer in this job that I am learning.Once again
-              I've been learning IT for 2023 at <span>NAJOT TA'LIM</span>.
+              <span>Hey there!</span> I am Salmonbek I am a website developer
+              and I am currently goining experience in this field. In the
+              developing world infromation technology is becoming popular so I
+              am going to be strong programmer in this job that I am
+              learning.Once again I have ve been learning IT for 2023 at{" "}
+              <span>NAJOT TALIM</span>.
             </p>
           </div>
           <div className="about-card">

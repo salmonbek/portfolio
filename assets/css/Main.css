@@ -9,17 +9,6 @@
 .main .hero .container .hero-left {
   padding-top: 241px;
 }
-.main .hero .container .hero-left-title {
-  font-family: Roboto;
-  font-size: 68px;
-  font-weight: 700;
-  line-height: 74px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #211f54;
-  max-width: 518px;
-  margin-bottom: 32px;
-}
 .main .hero .container .hero-left-p {
   font-family: Roboto;
   font-size: 21px;
