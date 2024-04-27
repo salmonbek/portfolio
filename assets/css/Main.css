@@ -517,6 +517,7 @@
   .main .hero .container .hero-left h1 {
     text-align: center;
     font-size: 35px;
+    margin-bottom: -10px;
   }
   .main .hero .container .hero-left p {
     text-align: center;
