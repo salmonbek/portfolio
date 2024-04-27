@@ -52,6 +52,7 @@
 .main .hero .container .hero-left-flex__f a * {
   width: 40px;
   height: 40px;
+  color: #1b075d;
 }
 .main .hero .container .hero-left-flex__f a *:hover {
   -webkit-transition: 0.5s;

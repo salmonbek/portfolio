@@ -25,12 +25,10 @@ import Project5 from "../../assets/images/todo-reacrRedux.jpg";
 // import Project6 from "../../assets/images/tovari-react.jpg";
 import Project1 from "../../assets/images/vanillaJs-country.jpg";
 import Project8 from "../../assets/images/html-sass.jpg";
-
 import Project11 from "../../assets/images/Ts-antd.jpg";
 import Project12 from "../../assets/images/Js-sass.jpg";
 import Project0 from "../../assets/images/crud-reactapp.jpg";
 import { SiNetlify } from "react-icons/si";
-
 // import Video1 from "../../assets/videos/UI-UX-Design-Showreel-2020-Shakib-4K.mp4";
 
 function Main() {
