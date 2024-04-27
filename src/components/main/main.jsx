@@ -35,7 +35,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Main() {
   const [typeEffect] = useTypewriter({
-    words: ["React Developer", "Javascript Developer"],
+    words: ["Salmonbek", "a JavaScript Developer"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
@@ -46,8 +46,8 @@ function Main() {
       <section className="hero">
         <div className="container ">
           <div className="hero-left">
-            <h1 style={{ margin: "50px" }}>
-              I am a<span>{typeEffect}</span>
+            <h1>
+              I am <span>{typeEffect}</span>
               <span style={{ color: "red" }}>
                 <Cursor cursorStyle="|" />
               </span>

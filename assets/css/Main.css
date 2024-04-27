@@ -4,10 +4,19 @@
 .main .hero .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .main .hero .container .hero-left {
   padding-top: 241px;
+}
+.main .hero .container .hero-left h1 {
+  font-weight: 600;
+  font-family: Roboto;
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #1b075d;
 }
 .main .hero .container .hero-left-p {
   font-family: Roboto;
