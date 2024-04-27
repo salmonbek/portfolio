@@ -4,7 +4,6 @@ header {
   padding: 20px 0;
   background-color: rgb(4, 83, 105);
   z-index: 10;
-  color: var(--textColor);
   box-shadow: 0px 0px 10px 3px black;
   .container {
     display: flex;
@@ -24,20 +23,29 @@ header {
       height: 40px;
       color: white;
     }
+    .contact {
+      border-radius: 5px;
+      padding: 8px 30px;
+      font-weight: 500;
+      background-color: aliceblue;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      &:hover {
+        background: linear-gradient(rgb(244, 151, 151), rgb(249, 56, 156));
+        color: white;
+        transition: 0.3s;
+      }
+    }
   }
 }
 
 nav a {
   margin: 0 2rem;
   color: white;
+  font-weight: 500;
   text-decoration: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-nav a:hover {
-  color: rgb(0, 98, 255);
-  transition: 0.3s;
 }
 
 header .nav-btn {
@@ -52,6 +60,13 @@ header .nav-btn {
 }
 
 @media (max-width: 768px) {
+  .header {
+    .container {
+      .contact {
+        display: none;
+      }
+    }
+  }
   header .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -72,7 +87,6 @@ header .nav-btn {
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgb(18, 104, 75);
-    backdrop-filter: blur(10px);
     background-attachment: fixed;
     transition: 0.6s;
     transform: translateX(-100vh);

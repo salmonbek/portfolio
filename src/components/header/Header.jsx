@@ -17,12 +17,11 @@ function Header() {
           <TbHexagonLetterS />
         </a>
         <nav ref={navRef}>
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Skills</a>
-          <a href="">Works</a>
-          <a href="">Contact</a>
+          <a href="#heroSec">Home</a>
+          <a href="#About">About</a>
+          <a href="#Service">Services</a>
+          <a href="#Skill">Skills</a>
+          <a href="#Projects">Works</a>
           <buttton className="nav-btn nav-close-btn" onClick={showNavbar}>
             <IoClose />
           </buttton>
@@ -30,7 +29,9 @@ function Header() {
         <button className="nav-btn btn-open" onClick={showNavbar}>
           <IoMdMenu />
         </button>
-        {/* <button>Contact</button> */}
+        <a className="contact" href="#">
+          Contact
+        </a>
       </div>
     </header>
   );

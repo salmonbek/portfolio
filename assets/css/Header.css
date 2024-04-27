@@ -4,7 +4,6 @@ header {
   padding: 20px 0;
   background-color: rgb(4, 83, 105);
   z-index: 10;
-  color: var(--textColor);
   -webkit-box-shadow: 0px 0px 10px 3px black;
           box-shadow: 0px 0px 10px 3px black;
 }
@@ -37,18 +36,27 @@ header .container .btn-open * {
   height: 40px;
   color: white;
 }
+header .container .contact {
+  border-radius: 5px;
+  padding: 8px 30px;
+  font-weight: 500;
+  background-color: aliceblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header .container .contact:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(244, 151, 151)), to(rgb(249, 56, 156)));
+  background: linear-gradient(rgb(244, 151, 151), rgb(249, 56, 156));
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
 
 nav a {
   margin: 0 2rem;
   color: white;
+  font-weight: 500;
   text-decoration: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-nav a:hover {
-  color: rgb(0, 98, 255);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 header .nav-btn {
@@ -63,6 +71,9 @@ header .nav-btn {
 }
 
 @media (max-width: 768px) {
+  .header .container .contact {
+    display: none;
+  }
   header .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -92,8 +103,6 @@ header .nav-btn {
     background-size: cover;
     background-blend-mode: multiply;
     background-color: rgb(18, 104, 75);
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
     background-attachment: fixed;
     -webkit-transition: 0.6s;
     transition: 0.6s;

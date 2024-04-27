@@ -43,7 +43,7 @@ function Main() {
   return (
     <main className="main">
       {/* hero section */}
-      <section className="hero">
+      <section id="heroSec" className="hero">
         <div className="container ">
           <div className="hero-left">
             <h1>
@@ -223,7 +223,7 @@ function Main() {
       {/* skills section */}
 
       {/* work section */}
-      <section className="work" id="projects">
+      <section className="work" id="Projects">
         <div className="container">
           <h1 data-aos="zoom-out-down">My Works</h1>
           <div className="work-card">
