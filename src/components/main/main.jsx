@@ -22,7 +22,7 @@ import Project7 from "../../assets/images/phone.jpg";
 import Project2 from "../../assets/images/project-2-js.jpg";
 import Project4 from "../../assets/images/html-tailwind.jpg";
 import Project5 from "../../assets/images/todo-reacrRedux.jpg";
-// import Project6 from "../../assets/images/tovari-react.jpg";
+import { PiStudentBold } from "react-icons/pi";
 import Project1 from "../../assets/images/vanillaJs-country.jpg";
 import Project8 from "../../assets/images/html-sass.jpg";
 import Project11 from "../../assets/images/Ts-antd.jpg";
@@ -31,7 +31,8 @@ import Project0 from "../../assets/images/crud-reactapp.jpg";
 import { SiNetlify } from "react-icons/si";
 // import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-// import Video1 from "../../assets/videos/UI-UX-Design-Showreel-2020-Shakib-4K.mp4";
+import { FaCalendarDays } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 
 function Main() {
   const [typeEffect] = useTypewriter({
@@ -99,15 +100,30 @@ function Main() {
             </p>
           </div>
           <div className="about-card">
+            {/* <video className="video-bg" autoPlay muted loop>
+              <source
+                src="../../assets/videos/UI-UX-Design-Showreel-2020-Shakib-4K.mp4"
+                type="video/mp4"
+              />
+            </video> */}
             <div className="about-card-item">
+              <div className="icon">
+                <FaCalendarDays />
+              </div>
               <h4>Birthday</h4>
               <p>02.09.2000</p>
             </div>
             <div className="about-card-item">
+              <div className="icon">
+                <FaLocationDot />
+              </div>
               <h4>Place of residence</h4>
               <p>Tashkent</p>
             </div>
             <div className="about-card-item">
+              <div className="icon">
+                <PiStudentBold />
+              </div>
               <h4>Degree</h4>
               <p>Bachelor</p>
             </div>
@@ -225,10 +241,10 @@ function Main() {
       {/* work section */}
       <section className="work" id="Projects">
         <div className="container">
-          <h1 data-aos="zoom-out-down">My Works</h1>
+          <h1>My Works</h1>
           <div className="work-card">
             <div className="work-card-item">
-              <img src={Project1} alt="" />
+              <img className="img-project" src={Project1} alt="" />
               <div className="work-card-item__flex">
                 <h3>FindCountries in JavaScript</h3>
                 <p>
@@ -244,7 +260,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project2} alt="" />
+              <img className="img-project" src={Project2} alt="" />
               <div className="work-card-item__flex">
                 <h3>Realco in Javacript and scss</h3>
                 <p>
@@ -258,7 +274,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project4} alt="" />
+              <img className="img-project" src={Project4} alt="" />
               <div className="work-card-item__flex">
                 <h3>IceCream in Tailwind</h3>
                 <p>
@@ -272,7 +288,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project5} alt="" />
+              <img className="img-project" src={Project5} alt="" />
               <div className="work-card-item__flex">
                 <h3>To-Do-App in React-redux</h3>
                 <p>
@@ -286,7 +302,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project7} alt="" />
+              <img className="img-project" src={Project7} alt="" />
               <div className="work-card-item__flex">
                 <h3>Online-Phone in JavaScript</h3>
                 <p>
@@ -300,7 +316,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project8} alt="" />
+              <img className="img-project" src={Project8} alt="" />
               <div className="work-card-item__flex">
                 <h3>Company in Html-sass</h3>
                 <p>
@@ -314,7 +330,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project0} alt="" />
+              <img className="img-project" src={Project0} alt="" />
               <div className="work-card-item__flex">
                 <h3>Crud-App in React -bootstrap</h3>
                 <p>
@@ -328,7 +344,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project11} alt="" />
+              <img className="img-project" src={Project11} alt="" />
               <div className="work-card-item__flex">
                 <h3>Dashboard in TypeScript,bootstrap</h3>
                 <p>
@@ -342,7 +358,7 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img src={Project12} alt="" />
+              <img className="img-project" src={Project12} alt="" />
               <div className="work-card-item__flex">
                 <h3>Crud-App in JavaScript</h3>
                 <p>
@@ -356,12 +372,14 @@ function Main() {
               </div>
             </div>
           </div>
-          <a
-            className="link-see"
-            href="https://github.com/salmonbek?tab=repositories"
-          >
-            See more
-          </a>
+          <div className="see-all">
+            <a
+              className="link-see"
+              href="https://github.com/salmonbek?tab=repositories"
+            >
+              See more
+            </a>
+          </div>
         </div>
       </section>
       {/* work section */}
