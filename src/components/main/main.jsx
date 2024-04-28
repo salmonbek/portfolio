@@ -33,6 +33,10 @@ import { SiNetlify } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaCalendarDays } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdMarkEmailRead } from "react-icons/md";
+import { IoLocation } from "react-icons/io5";
+import { FaGlobe } from "react-icons/fa";
 
 function Main() {
   const [typeEffect] = useTypewriter({
@@ -383,6 +387,44 @@ function Main() {
         </div>
       </section>
       {/* work section */}
+
+      {/* section contact  */}
+      <section className="contact" id="Contactsec">
+        <div className="container">
+          <h1>Contact Me</h1>
+          <div className="contact-card">
+            <div className="contact-card-items">
+              <div className="child1">
+                <FaPhoneAlt />
+              </div>
+              <p>Phone</p>
+              <h3>+998 90 628 77 42</h3>
+            </div>
+            <div className="contact-card-items">
+              <div className="child1">
+                <MdMarkEmailRead />
+              </div>
+              <p>Email Adress</p>
+              <h3>salmonlearner34@gmail.com</h3>
+            </div>
+            <div className="contact-card-items">
+              <div className="child1">
+                <IoLocation />
+              </div>
+              <p>Address</p>
+              <h3>Tashkent, Uzbekistan</h3>
+            </div>
+            <div className="contact-card-items">
+              <div className="child1">
+                <FaGlobe />
+              </div>
+              <p>Website</p>
+              <h3>Myportfolio.uz</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* section contact  */}
     </main>
   );
 }

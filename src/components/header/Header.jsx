@@ -29,7 +29,7 @@ function Header() {
         <button className="nav-btn btn-open" onClick={showNavbar}>
           <IoMdMenu />
         </button>
-        <a className="contact" href="#">
+        <a className="contact" href="#Contactsec">
           Contact
         </a>
       </div>
