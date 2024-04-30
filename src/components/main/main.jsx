@@ -40,7 +40,7 @@ import { FaGlobe } from "react-icons/fa";
 
 function Main() {
   const [typeEffect] = useTypewriter({
-    words: ["FrontEnd Developer", "Coder"],
+    words: ["FrontEnd Developer", "Coder", "Hard Worker"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
