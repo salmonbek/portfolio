@@ -22,7 +22,6 @@
             #c850c0 46%,
             #ffcc70 100%
           );
-          // color: white;
           -webkit-background-clip: text;
           color: transparent;
         }
@@ -96,18 +95,67 @@
     padding-bottom: 250px;
     .container {
       background-color: #fff;
+
       .about-top {
-        h1 {
-          font-family: Roboto;
-          font-size: 48px;
-          text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-          font-weight: 700;
-          line-height: 58px;
-          letter-spacing: 0em;
-          text-align: center;
-          color: #211f54;
-          margin-bottom: 21px;
+        perspective: 5000px;
+        perspective-origin: 50% calc(50% - 150px);
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+        color: #fff;
+        // perspective-origin: 50%;
+        // h1 {
+        //   font-family: Roboto;
+        //   font-size: 48px;
+        //   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        //   font-weight: 700;
+        //   line-height: 58px;
+        //   letter-spacing: 0em;
+        //   text-align: center;
+        //   color: #211f54;
+        //   margin-bottom: 21px;
+        // }
+
+        .banner {
+          display: flex;
+          transform-style: preserve-3d;
+          animation: rotate 4s infinite linear;
         }
+        @keyframes rotate {
+          to {
+            transform: rotateY(360deg);
+          }
+        }
+        $width: 50px;
+        .panel {
+          width: $width;
+          position: absolute;
+          transform: translate(-50%, -50%) rotateY(var(--angle))
+            translateZ(190px);
+          height: 100px;
+          // border: 1px solid black;
+          overflow: hidden;
+          // background-color: rgba(93, 76, 76, 0.267);
+        }
+
+        .panel::before {
+          position: absolute;
+          left: var(--left);
+          content: "About Me";
+          font-size: 96px;
+          width: max-content;
+          color: hsl(var(--hue), 75%, 75%);
+          // color: #000000;
+        }
+
+        @for $i from 0 to 24 {
+          .panel:nth-child(#{$i + 1}) {
+            --left: #{$width * $i * -1};
+            --hue: #{360/24 * $i};
+            --angle: #{360deg/24 * $i};
+          }
+        }
+
         p {
           font-family: Roboto;
           margin-right: auto;

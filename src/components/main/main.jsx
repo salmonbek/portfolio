@@ -93,11 +93,36 @@ function Main() {
       <section id="About" className="about">
         <div className="container">
           <div className="about-top">
-            <h1> About Me</h1>
-
+            {/* <h1> About Me</h1> */}
+            <div className="banner">
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+              <div className="panel"></div>
+            </div>
             <p>
               <span>Hey there!</span> I am Salmonbek I am a website developer
-              and I am currently goining experience in this field. In the
+              and I am currently gaining experience in this field. In the
               developing world infromation technology is becoming popular so I
               am going to be strong programmer in this job that I am
               learning.And also I gradueted last year I studied at Fergana
