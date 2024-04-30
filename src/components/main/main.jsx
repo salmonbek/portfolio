@@ -93,7 +93,8 @@ function Main() {
       <section id="About" className="about">
         <div className="container">
           <div className="about-top">
-            <h1>About Me</h1>
+            <h1> About Me</h1>
+
             <p>
               <span>Hey there!</span> I am Salmonbek I am a website developer
               and I am currently goining experience in this field. In the

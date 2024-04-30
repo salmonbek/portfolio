@@ -10,6 +10,9 @@ function Header() {
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
+  const close = () => {
+    navRef.current.classList.remove("responsive_nav");
+  };
   return (
     <header className="header">
       <div className="container">
@@ -17,11 +20,21 @@ function Header() {
           <TbHexagonLetterS />
         </a>
         <nav ref={navRef}>
-          <a href="#heroSec">Home</a>
-          <a href="#About">About</a>
-          <a href="#Service">Services</a>
-          <a href="#Skill">Skills</a>
-          <a href="#Projects">Works</a>
+          <a onClick={close} href="#heroSec">
+            Home
+          </a>
+          <a onClick={close} href="#About">
+            About
+          </a>
+          <a onClick={close} href="#Service">
+            Services
+          </a>
+          <a onClick={close} href="#Skill">
+            Skills
+          </a>
+          <a onClick={close} href="#Projects">
+            Works
+          </a>
           <buttton className="nav-btn nav-close-btn" onClick={showNavbar}>
             <IoClose />
           </buttton>

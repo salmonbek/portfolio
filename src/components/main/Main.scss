@@ -1,3 +1,5 @@
+// main section */
+
 .main {
   .hero {
     padding-bottom: 250px;
@@ -81,7 +83,6 @@
   }
   .about {
     padding-bottom: 250px;
-
     .container {
       background-color: #fff;
       .about-top {
@@ -106,7 +107,6 @@
           letter-spacing: 0em;
           text-align: center;
           color: #6e7191;
-
           max-width: 648px;
           margin-bottom: 58px;
           span {
@@ -124,9 +124,7 @@
         backdrop-filter: blur(10px);
         padding-bottom: 56px;
         border-radius: 10px;
-        // &:hover {
-        //   background-color: red;
-        // }
+
         .icon * {
           width: 40px;
           height: 40px;
@@ -504,7 +502,6 @@
   .contact {
     padding-bottom: 177px;
     .container {
-      // position: relative;
       h1 {
         font-family: Roboto;
         display: flex;
@@ -561,6 +558,7 @@
     }
   }
 }
+// main section */
 
 // responsive area start
 @media (max-width: 1044px) {
