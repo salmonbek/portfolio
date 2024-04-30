@@ -26,8 +26,8 @@ import { PiStudentBold } from "react-icons/pi";
 import Project1 from "../../assets/images/vanillaJs-country.jpg";
 import Project8 from "../../assets/images/html-sass.jpg";
 import Project11 from "../../assets/images/Ts-antd.jpg";
-import Project12 from "../../assets/images/Js-sass.jpg";
 import Project0 from "../../assets/images/crud-reactapp.jpg";
+import Spotify from "../../assets/images/spotfiy.png";
 import { SiNetlify } from "react-icons/si";
 // import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -40,7 +40,7 @@ import { FaGlobe } from "react-icons/fa";
 
 function Main() {
   const [typeEffect] = useTypewriter({
-    words: ["FrontEnd Developer"],
+    words: ["FrontEnd Developer", "Coder"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
@@ -100,8 +100,9 @@ function Main() {
               and I am currently goining experience in this field. In the
               developing world infromation technology is becoming popular so I
               am going to be strong programmer in this job that I am
-              learning.Once again I have ve been learning IT for 2023 at{" "}
-              <span>NAJOT TALIM</span>.
+              learning.And also I gradueted last year I studied at Fergana
+              Politecnical institute as sistemotechnic engineer, Once again I
+              have ve been learning IT for 2023 at <span>NAJOT TALIM</span>.
             </p>
           </div>
           <div className="about-card">
@@ -257,7 +258,7 @@ function Main() {
                   Blanditiis, eius?
                 </p>
                 <a href="https://comforting-gnome-2e3ceb.netlify.app">
-                  View code
+                  View project
                 </a>
                 <span>
                   <SiNetlify />
@@ -272,7 +273,9 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+                <a href="https://stalwart-malasada-5c514b.netlify.app">
+                  View project
+                </a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -286,7 +289,7 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+                <a href="http://polar-red.vercel.app">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -300,7 +303,9 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+                <a href="https://sunny-gumption-19bdc1.netlify.app">
+                  View project
+                </a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -314,7 +319,9 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+                <a href="https://phone-project-nine.vercel.app/">
+                  View project
+                </a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -328,7 +335,9 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+                <a href="https://kaleidoscopic-dodol-f33436.netlify.app/">
+                  View project
+                </a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -342,7 +351,8 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+
+                <a href="task7-1-two.vercel.app">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -356,21 +366,21 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+                <a href="task7-6.vercel.app">View code</a>
                 <span>
                   <SiNetlify />
                 </span>
               </div>
             </div>
             <div className="work-card-item">
-              <img className="img-project" src={Project12} alt="" />
+              <img className="img-project" src={Spotify} alt="" />
               <div className="work-card-item__flex">
-                <h3>Crud-App in JavaScript</h3>
+                <h3>Spotify clone in React(Zustand)</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="">View code</a>
+                <a href="exam-7-xi.vercel.app">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
