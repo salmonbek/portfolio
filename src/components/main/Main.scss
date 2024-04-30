@@ -120,6 +120,7 @@
           display: flex;
           transform-style: preserve-3d;
           animation: rotate 4s infinite linear;
+          margin-bottom: -250px;
         }
         @keyframes rotate {
           to {
@@ -146,7 +147,7 @@
           font-size: 60px;
           width: max-content;
           color: hsl(var(--hue), 75%, 75%);
-          color: #000000;
+          // color: #000000;
         }
 
         @for $i from 0 to 24 {
@@ -159,6 +160,7 @@
 
         p {
           font-family: Roboto;
+
           margin-right: auto;
           margin-left: auto;
           font-size: 21px;
