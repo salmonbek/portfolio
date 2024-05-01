@@ -29,7 +29,7 @@ import Project11 from "../../assets/images/Ts-antd.jpg";
 import Project0 from "../../assets/images/crud-reactapp.jpg";
 import Spotify from "../../assets/images/spotfiy.png";
 import { SiNetlify } from "react-icons/si";
-// import React from "react";
+import { IoIosArrowDropup } from "react-icons/io";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaCalendarDays } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
@@ -37,8 +37,28 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
 import { FaGlobe } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 function Main() {
+  const [backToTopButton, setBackTopButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 800) {
+        setBackTopButton(true);
+      } else {
+        setBackTopButton(false);
+      }
+    });
+  }, []);
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const [typeEffect] = useTypewriter({
     words: ["FrontEnd Developer", "Coder", "Hard Worker"],
     loop: {},
@@ -47,6 +67,11 @@ function Main() {
   });
   return (
     <main className="main">
+      {backToTopButton && (
+        <button className="backtop" onClick={scrollUp}>
+          <IoIosArrowDropup />
+        </button>
+      )}
       {/* hero section */}
       <section id="heroSec" className="hero">
         <div className="container ">
@@ -208,7 +233,7 @@ function Main() {
       <section id="Skill" className="skills">
         <div className="container">
           <h1>My Skills</h1>
-          <marquee behavior="scroll" direction="left">
+          <marquee direction="left">
             <div className="skills-card">
               <div className="skills-card__items">
                 <FaHtml5 />
