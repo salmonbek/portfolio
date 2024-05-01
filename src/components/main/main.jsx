@@ -102,7 +102,6 @@ function Main() {
                 >
                   <IoLogoLinkedin />
                 </a>
-
                 <a href="https://github.com/salmonbek">
                   <FaGithub />
                 </a>
