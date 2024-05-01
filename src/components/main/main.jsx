@@ -233,7 +233,7 @@ function Main() {
       <section id="Skill" className="skills">
         <div className="container">
           <h1>My Skills</h1>
-          <marquee direction="left">
+          <marquee scrollAmount="13" direction="left">
             <div className="skills-card">
               <div className="skills-card__items">
                 <FaHtml5 />
@@ -402,7 +402,7 @@ function Main() {
                   Aspernatur, ut.
                 </p>
 
-                <a href="task7-1-two.vercel.app">View project</a>
+                <a href="https://task7-1-two.vercel.app/">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -430,7 +430,7 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="exam-7-xi.vercel.app">View project</a>
+                <a href="https://exam-7-xi.vercel.app/">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
