@@ -96,13 +96,15 @@ function Main() {
                 <a href="https://www.instagram.com/akbarov_1s/">
                   <FaInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in/akbarov-salmonbek-862baa2b1/">
+                <a
+                  href="https://www.linkedin.com/in/akbarov-salmonbek-862baa2b1/"
+                  target="_blink"
+                >
                   <IoLogoLinkedin />
                 </a>
-                <a href="https://www.linkedin.com/in/akbarov-salmonbek-862baa2b1/">
-                  <a href="https://github.com/salmonbek">
-                    <FaGithub />
-                  </a>
+
+                <a href="https://github.com/salmonbek">
+                  <FaGithub />
                 </a>
               </div>
             </div>
@@ -436,6 +438,7 @@ function Main() {
                 </span>
               </div>
             </div>
+            <div></div>
           </div>
           <div className="see-all">
             <a
