@@ -15,6 +15,7 @@
     }
   }
   .hero {
+    width: 100%;
     padding-bottom: 270px;
     .container {
       display: grid;
@@ -111,21 +112,9 @@
         perspective: 500px;
         perspective-origin: 50% calc(50% - 150px);
         display: grid;
-        // min-height: 100vh;
+
         place-items: center;
         color: #fff;
-        // perspective-origin: 50%;
-        // h1 {
-        //   font-family: Roboto;
-        //   font-size: 48px;
-        //   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        //   font-weight: 700;
-        //   line-height: 58px;
-        //   letter-spacing: 0em;
-        //   text-align: center;
-        //   color: #211f54;
-        //   margin-bottom: 21px;
-        // }
 
         .banner {
           display: flex;
@@ -148,7 +137,7 @@
           height: 100px;
           // border: 1px solid black;
           overflow: hidden;
-          // background-color: rgba(236, 228, 228, 0.267);
+          // background-color: rgba(35, 23, 31, 0.267);
         }
 
         .panel::before {
@@ -261,10 +250,13 @@
         padding-bottom: 70px;
       }
       .service-card {
+        position: relative;
+        overflow: hidden;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         align-items: center;
         gap: 28px;
+
         .icon-web * {
           width: 50px;
           height: 50px;
@@ -278,6 +270,76 @@
           position: relative;
           overflow: hidden;
           background: rgba(0, 0, 0, 0.1);
+          &::after {
+            content: "asdsadsa";
+            position: absolute;
+            bottom: -100px;
+            right: -100px;
+            display: inline-block;
+            // border-radius: 50%;
+            width: 0;
+            height: 0;
+            transition: 0.5s;
+            background-image: url("../../assets/images/ui.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+          &:hover::after {
+            width: 500px;
+            height: 500px;
+          }
+          h4 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #211f54;
+          }
+          p {
+            font-family: Roboto;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #6e7191;
+          }
+          img {
+            max-width: 100%;
+            margin-bottom: 24px;
+          }
+        }
+        &-items2 {
+          border: 1px solid #eff0f6;
+          padding: 83px 38px 28px 38px;
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+          border-radius: 10px;
+          background: rgba(0, 0, 0, 0.1);
+          &::after {
+            content: "asdsadsa";
+            position: absolute;
+            bottom: -100px;
+            right: -100px;
+            display: inline-block;
+            // border-radius: 50%;
+            width: 0;
+            height: 0;
+            transition: 0.5s;
+            background-image: url("../../assets/images/motage-video.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+          &:hover::after {
+            width: 500px;
+            height: 500px;
+            // filter: blur(4px);
+          }
 
           h4 {
             font-family: Roboto;
@@ -301,50 +363,34 @@
             max-width: 100%;
             margin-bottom: 24px;
           }
-          &:hover {
-            box-shadow: 0px 2px 20px 3px rgb(4, 83, 105);
-            transition: all 0.2s;
-          }
-        }
-        &-items2 {
-          border: 1px solid #eff0f6;
-          padding: 83px 38px 28px 38px;
-          text-align: center;
-          border-radius: 10px;
-          background: rgba(0, 0, 0, 0.1);
-          h4 {
-            font-family: Roboto;
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 34px;
-            letter-spacing: 0em;
-            text-align: center;
-            color: #211f54;
-          }
-          p {
-            font-family: Roboto;
-            font-size: 15px;
-            font-weight: 400;
-            line-height: 30px;
-            letter-spacing: 0em;
-            text-align: center;
-            color: #6e7191;
-          }
-          img {
-            max-width: 100%;
-            margin-bottom: 24px;
-          }
-          &:hover {
-            box-shadow: 0px 2px 20px 3px rgb(4, 83, 105);
-            transition: all 0.2s;
-          }
         }
         &-items3 {
           border: 1px solid #eff0f6;
           padding: 83px 38px 28px 38px;
+          position: relative;
+          overflow: hidden;
           text-align: center;
           border-radius: 10px;
           background: rgba(0, 0, 0, 0.1);
+          &::after {
+            content: "asdsadsa";
+            position: absolute;
+            bottom: -100px;
+            right: -100px;
+            display: inline-block;
+            // border-radius: 50%;
+            width: 0;
+            height: 0;
+            transition: 0.5s;
+            background-image: url("../../assets/images/coding.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+          &:hover::after {
+            width: 500px;
+            height: 500px;
+          }
           h4 {
             font-family: Roboto;
             font-size: 24px;
@@ -366,10 +412,6 @@
           img {
             max-width: 100%;
             margin-bottom: 24px;
-          }
-          &:hover {
-            box-shadow: 0px 2px 20px 3px rgb(4, 83, 105);
-            transition: all 0.2s;
           }
         }
       }
@@ -759,29 +801,6 @@
         }
       }
     }
-    .covid {
-      .container {
-        .covid-area {
-          gap: 1px;
-          .covid-area-right {
-            text-align: center;
-            h5 {
-              text-align: center;
-            }
-            h1 {
-              text-align: center;
-              font-size: 35px;
-            }
-            p {
-              text-align: center;
-            }
-            &__flex {
-              justify-content: center;
-            }
-          }
-        }
-      }
-    }
   }
 }
 
@@ -798,13 +817,6 @@
       .container {
         .service-card {
           grid-template-columns: repeat(2, 1fr);
-        }
-      }
-    }
-    .covid {
-      .container {
-        .covid-area {
-          grid-template-columns: 1fr;
         }
       }
     }

@@ -38,7 +38,6 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
 import { FaGlobe } from "react-icons/fa";
 import { useEffect, useState } from "react";
-
 function Main() {
   const [backToTopButton, setBackTopButton] = useState(false);
 
@@ -86,7 +85,6 @@ function Main() {
                 <Cursor cursorStyle="|" />
               </span>
             </h1>
-
             {/* <p className="hero-left-p">FrontEnd Developer</p> */}
             <div className="hero-left-flex">
               <div className="hero-left-flex__f">
@@ -96,10 +94,7 @@ function Main() {
                 <a href="https://www.instagram.com/akbarov_1s/">
                   <FaInstagram />
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/akbarov-salmonbek-862baa2b1/"
-                  target="_blink"
-                >
+                <a href="https://www.linkedin.com/in/akbarov-salmonbek-862baa2b1/">
                   <IoLogoLinkedin />
                 </a>
                 <a href="https://github.com/salmonbek">
@@ -196,9 +191,6 @@ function Main() {
           <p>My services are Web Programming, Video montage,Web design.</p>
           <div className="service-card">
             <div className="service-card-items">
-              {/* <video className="ui-video" muted loop>
-                <source src={Video1} type="video.mp4" />
-              </video> */}
               <div className="icon-web">
                 <IoLogoFigma />
               </div>
@@ -493,3 +485,16 @@ function Main() {
 }
 
 export default Main;
+// I can try to find the best projects for my portfolio web site and also you can use with easily I think it will be the besr alternative way
+
+// Second thing that we nnet to know about is me ok. I hope everything is going great.!
+
+// what do you think about this portfolio web site if I am not mistaken I used to coding react js because this libary is to easy for coding
+
+// if  you have any question you can ask  about me.
+
+// and  also this comment includes more information about me . taht is about it.
+
+// I know you have a great portfolio this site will be good I think and also you can type here your portfolio
+
+// majority of portfolio will be available at http:// portfolio website  web site and also you can see more information about me here and
