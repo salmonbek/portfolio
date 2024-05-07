@@ -409,7 +409,7 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="task7-6.vercel.app">View code</a>
+                <a href="https://github.com/salmonbek/task7-6.git">View code</a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -423,7 +423,7 @@ function Main() {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="task7-5.vercel.app">View project</a>
+                <a href="https://exam-7-xi.vercel.app/">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
