@@ -485,16 +485,3 @@ function Main() {
 }
 
 export default Main;
-// I can try to find the best projects for my portfolio web site and also you can use with easily I think it will be the besr alternative way
-
-// Second thing that we nnet to know about is me ok. I hope everything is going great.!
-
-// what do you think about this portfolio web site if I am not mistaken I used to coding react js because this libary is to easy for coding
-
-// if  you have any question you can ask  about me.
-
-// and  also this comment includes more information about me . taht is about it.
-
-// I know you have a great portfolio this site will be good I think and also you can type here your portfolio
-
-// majority of portfolio will be available at http:// portfolio website  web site and also you can see more information about me here and
