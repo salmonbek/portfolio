@@ -187,8 +187,16 @@ function Main() {
       {/* service section */}
       <section id="Service" className="service">
         <div className="container">
-          <h1>My Services</h1>
-          <p>My services are Web Programming, Video montage,Web design.</p>
+          <div className="scroll-reveal">
+            <h1 className="section-title">
+              <span>My Services</span>
+            </h1>
+            <p>
+              <span>
+                My services are Web Programming, Video montage,Web design.
+              </span>
+            </p>
+          </div>
           <div className="service-card">
             <div className="service-card-items">
               <div className="icon-web">
@@ -225,7 +233,11 @@ function Main() {
       {/* skills section */}
       <section id="Skill" className="skills">
         <div className="container">
-          <h1>My Skills</h1>
+          <div className="scroll-reveal">
+            <h1 className="section-title">
+              <span>My Skills</span>
+            </h1>
+          </div>
           <marquee scrollAmount="13" direction="left">
             <div className="skills-card">
               <div className="skills-card__items">
@@ -290,7 +302,11 @@ function Main() {
       {/* work section */}
       <section className="work" id="Projects">
         <div className="container">
-          <h1>My Works</h1>
+          <div className="scroll-reveal">
+            <h1 className="section-title">
+              <span>My Works</span>
+            </h1>
+          </div>
           <div className="work-card">
             <div className="work-card-item">
               <img className="img-project" src={Project1} alt="" />
@@ -446,7 +462,11 @@ function Main() {
       {/* section contact  */}
       <section className="contact" id="Contactsec">
         <div className="container">
-          <h1>Contact Me</h1>
+          <div className="scroll-reveal">
+            <h1 className="section-title">
+              <span>My Contact</span>
+            </h1>
+          </div>
           <div className="contact-card">
             <div className="contact-card-items">
               <div className="child1">
