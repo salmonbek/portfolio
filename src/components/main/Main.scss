@@ -27,7 +27,8 @@
           font-weight: 600;
           font-family: Roboto;
           font-size: 50px;
-          color: #1b075d;
+          // color: #1b075d;
+          color: #d7d7d7;
         }
         span {
           background-image: linear-gradient(
@@ -63,17 +64,13 @@
             a * {
               width: 40px;
               height: 40px;
-              color: #1b075d;
+              color: #81849c;
               &:hover {
                 // transform: scale(1.2);
                 transition: 0.5s;
               }
             }
-            img {
-              border: 1px solid #dcddeb;
-              border-radius: 50%;
-              padding: 10px;
-            }
+
             &__p1 {
               font-family: Roboto;
               font-size: 16px;
@@ -101,6 +98,10 @@
         img {
           width: 100%;
           padding-top: 130px;
+          border: 1px solid #dcddeb;
+          border-radius: 50%;
+          padding: 4px;
+          margin-top: 120px;
         }
       }
     }
@@ -142,11 +143,10 @@
         .panel::before {
           position: absolute;
           left: var(--left);
-          content: "ABOUT ME";
+          content: "MORE INFORMATION ABOUT ME";
           font-size: 60px;
           width: max-content;
           color: hsl(var(--hue), 75%, 75%);
-          // color: #000000;
         }
 
         @for $i from 0 to 24 {
@@ -167,7 +167,7 @@
           line-height: 30px;
           letter-spacing: 0em;
           text-align: center;
-          color: #6e7191;
+          color: #999cb6;
           max-width: 648px;
           margin-bottom: 28px;
           span {
@@ -190,6 +190,7 @@
           width: 40px;
           height: 40px;
           margin-bottom: 12px;
+          color: #a0f4b4;
         }
         img {
           margin-bottom: 39px;
@@ -203,7 +204,7 @@
             line-height: 36px;
             letter-spacing: 0em;
             text-align: center;
-            color: #211f54;
+            color: #9390fb;
             margin-bottom: 16px;
           }
           p {
@@ -213,7 +214,7 @@
             line-height: 30px;
             letter-spacing: 0em;
             text-align: center;
-            color: #6e7191;
+            color: #9ea0b9;
           }
         }
       }
@@ -223,13 +224,13 @@
     padding-bottom: 120px;
     .container {
       .scroll-reveal span {
-        color: hsla(0, 0%, 41%, 0.2);
+        color: hsla(0, 0%, 84%, 0.2);
         background-clip: text;
         background-repeat: no-repeat;
         background-size: 0% 100%;
         background-image: linear-gradient(
-          rgb(241, 126, 126),
-          rgb(106, 106, 244)
+          rgb(255, 196, 196),
+          rgb(160, 160, 255)
         );
         animation: scroll-reveal linear forwards;
         animation-timeline: view(y);
@@ -290,16 +291,15 @@
           width: 50px;
           height: 50px;
           margin-bottom: 10px;
-          color: rgb(39, 118, 121);
+          color: #3d3d3e;
         }
         &-items {
-          border: 1px solid #eff0f6;
           border-radius: 10px;
           padding: 83px 38px 28px 38px;
           text-align: center;
           position: relative;
           overflow: hidden;
-          background: rgba(0, 0, 0, 0.1);
+          background-color: rgb(211, 214, 214);
           &::after {
             content: "asdsadsa";
             position: absolute;
@@ -343,13 +343,12 @@
           }
         }
         &-items2 {
-          border: 1px solid #eff0f6;
           padding: 83px 38px 28px 38px;
           text-align: center;
           position: relative;
           overflow: hidden;
           border-radius: 10px;
-          background: rgba(0, 0, 0, 0.1);
+          background-color: rgb(211, 214, 214);
           &::after {
             content: "asdsadsa";
             position: absolute;
@@ -395,13 +394,13 @@
           }
         }
         &-items3 {
-          border: 1px solid #eff0f6;
           padding: 83px 38px 28px 38px;
           position: relative;
           overflow: hidden;
           text-align: center;
           border-radius: 10px;
-          background: rgba(0, 0, 0, 0.1);
+          background-color: rgb(211, 214, 214);
+
           &::after {
             content: "asdsadsa";
             position: absolute;
@@ -451,7 +450,7 @@
     padding-bottom: 150px;
     .container {
       .scroll-reveal span {
-        color: hsla(0, 0%, 41%, 0.2);
+        color: hsla(0, 0%, 84%, 0.2);
         background-clip: text;
         background-repeat: no-repeat;
         background-size: 0% 100%;
@@ -482,7 +481,7 @@
         font-family: Roboto;
         display: flex;
         justify-content: center;
-        font-size: 48px;
+        font-size: 3.4rem;
         font-weight: 700;
         line-height: 58px;
         letter-spacing: 0em;
