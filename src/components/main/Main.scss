@@ -97,7 +97,7 @@
       }
       .hero-right {
         img {
-          width: 100%;
+          width: 99%;
           padding-top: 130px;
           border: 1px solid #dcddeb;
           border-radius: 50%;
@@ -804,6 +804,9 @@
 }
 @media (max-width: 550px) {
   .main {
+    .hero {
+      margin-top: -10px;
+    }
     .work {
       .container {
         .work-card {
