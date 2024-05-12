@@ -19,6 +19,7 @@
     padding-bottom: 270px;
     .container {
       display: grid;
+      gap: 60px;
       grid-template-columns: repeat(2, 1fr);
       justify-content: space-between;
       .hero-left {
@@ -96,7 +97,7 @@
       }
       .hero-right {
         img {
-          width: 90%;
+          width: 100%;
           padding-top: 130px;
           border: 1px solid #dcddeb;
           border-radius: 50%;
