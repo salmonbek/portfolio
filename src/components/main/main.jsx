@@ -20,7 +20,7 @@ import { PiFigmaLogoFill } from "react-icons/pi";
 import { ImGithub } from "react-icons/im";
 import Project7 from "../../assets/images/phone.jpg";
 import Project2 from "../../assets/images/project-2-js.jpg";
-import Project4 from "../../assets/images/html-tailwind.jpg";
+import Project4 from "../../assets/images/shop.jpg";
 import Project5 from "../../assets/images/todo-reacrRedux.jpg";
 import { PiStudentBold } from "react-icons/pi";
 import Project1 from "../../assets/images/vanillaJs-country.jpg";
