@@ -343,12 +343,12 @@ function Main() {
             <div className="work-card-item">
               <img className="img-project" src={Project4} alt="" />
               <div className="work-card-item__flex">
-                <h3>IceCream in Tailwind</h3>
+                <h3>Alif Shopp in React App</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="http://polar-red.vercel.app">View project</a>
+                <a href="https://homework-9-ts.vercel.app/">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
