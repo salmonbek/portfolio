@@ -176,6 +176,27 @@
           }
         }
       }
+      .icon-line {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+      }
+      .icon-line * {
+        width: 30px;
+        height: 30px;
+        color: #33f360;
+        display: block;
+        margin: 0 auto;
+      }
+      .icon-line::before,
+      .icon-line::after {
+        content: "";
+        height: 1px;
+        background-color: greenyellow;
+        display: block;
+      }
       .about-card {
         display: grid;
         grid-template-columns: repeat(4, 1fr);

@@ -39,6 +39,7 @@ import { IoLocation } from "react-icons/io5";
 import { FaGlobe } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { FaVolleyballBall } from "react-icons/fa";
+import { VscFoldDown } from "react-icons/vsc";
 
 function Main() {
   const [backToTopButton, setBackTopButton] = useState(false);
@@ -188,6 +189,9 @@ function Main() {
               <h4>HOBBBY</h4>
               <p> Voleyball</p>
             </div>
+          </div>
+          <div className="icon-line">
+            <VscFoldDown />
           </div>
         </div>
       </section>
