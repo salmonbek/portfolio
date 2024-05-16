@@ -38,6 +38,8 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
 import { FaGlobe } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import { FaVolleyballBall } from "react-icons/fa";
+
 function Main() {
   const [backToTopButton, setBackTopButton] = useState(false);
 
@@ -162,22 +164,29 @@ function Main() {
               <div className="icon">
                 <FaCalendarDays />
               </div>
-              <h4>Birthday</h4>
+              <h4>BIRTHDAY</h4>
               <p>02.09.2000</p>
             </div>
             <div className="about-card-item">
               <div className="icon">
                 <FaLocationDot />
               </div>
-              <h4>Place of residence</h4>
+              <h4>LOCATION</h4>
               <p>Tashkent</p>
             </div>
             <div className="about-card-item">
               <div className="icon">
                 <PiStudentBold />
               </div>
-              <h4>Degree</h4>
+              <h4>DEGREE</h4>
               <p>Bachelor</p>
+            </div>
+            <div className="about-card-item">
+              <div className="icon">
+                <FaVolleyballBall />
+              </div>
+              <h4>HOBBBY</h4>
+              <p> Voleyball</p>
             </div>
           </div>
         </div>
