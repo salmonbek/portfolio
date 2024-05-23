@@ -19,7 +19,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { PiFigmaLogoFill } from "react-icons/pi";
 import { ImGithub } from "react-icons/im";
 import Project7 from "../../assets/images/phone.jpg";
-import Project2 from "../../assets/images/project-2-js.jpg";
+import Project2 from "../../assets/images/crypto.jpg";
 import Project4 from "../../assets/images/shop.jpg";
 import Project5 from "../../assets/images/todo-reacrRedux.jpg";
 import { PiStudentBold } from "react-icons/pi";
@@ -40,6 +40,7 @@ import { FaGlobe } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { FaVolleyballBall } from "react-icons/fa";
 import { VscFoldDown } from "react-icons/vsc";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 function Main() {
   const [backToTopButton, setBackTopButton] = useState(false);
@@ -108,6 +109,9 @@ function Main() {
           </div>
           <div className="hero-right">
             <img src={About} alt="me-img" />
+          </div>
+          <div className="arrow">
+            <MdKeyboardDoubleArrowDown />
           </div>
         </div>
       </section>
@@ -340,14 +344,12 @@ function Main() {
             <div className="work-card-item">
               <img className="img-project" src={Project2} alt="" />
               <div className="work-card-item__flex">
-                <h3>Realco in Javacript and scss</h3>
+                <h3>Crypyo site in React</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur, ut.
                 </p>
-                <a href="https://stalwart-malasada-5c514b.netlify.app">
-                  View project
-                </a>
+                <a href="https://exam-final-xi.vercel.app/">View project</a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -474,6 +476,9 @@ function Main() {
 
       {/* section contact  */}
       <section className="contact" id="Contactsec">
+        {/* <video className="video" autoPlay muted loop>
+          <source src="../../assets/videos/full.mp4" type="video/mp4" />
+        </video> */}
         <div className="container">
           <div className="scroll-reveal">
             <h1 className="section-title">

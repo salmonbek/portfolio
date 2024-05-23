@@ -18,6 +18,30 @@
     width: 98%;
     padding-bottom: 270px;
     .container {
+      .arrow {
+        position: absolute;
+        top: 735px;
+        right: 80%;
+        left: 47%;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        animation: arrowDown 1s infinite alternate;
+      }
+      .arrow * {
+        width: 50px;
+        height: 50px;
+        color: #33f360;
+      }
+
+      @keyframes arrowDown {
+        from {
+          transform: translateY(-50%);
+        }
+        to {
+          transform: translateY(10px); /* Pastga qarab o'ynash */
+        }
+      }
+
       display: grid;
       gap: 60px;
       grid-template-columns: repeat(2, 1fr);
@@ -716,7 +740,23 @@
     }
   }
   .contact {
+    // padding-bottom: 90px;
+    position: relative;
+    overflow: hidden;
+    // .video {
+    //   min-width: 100%;
+    //   min-height: 100%;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   z-index: -1;
+    // }
     padding-bottom: 177px;
+    background-image: url("../../assets/images/bg-c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
     .container {
       .scroll-reveal span {
         color: hsla(0, 0%, 41%, 0.2);
@@ -724,8 +764,8 @@
         background-repeat: no-repeat;
         background-size: 0% 100%;
         background-image: linear-gradient(
-          rgb(241, 126, 126),
-          rgb(106, 106, 244)
+          rgb(255, 255, 255),
+          rgb(13, 250, 111)
         );
         animation: scroll-reveal linear forwards;
         animation-timeline: view(y);
@@ -758,15 +798,14 @@
         line-height: 58px;
         letter-spacing: 0em;
         text-align: left;
-
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        // text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
       }
       .contact-card {
         padding: 80px 70px;
         border-radius: 10px;
-        background-color: rgb(59, 59, 59);
-        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.09);
         color: white;
+        backdrop-filter: blur(10px);
         p {
           font-family: Roboto;
           font-size: 20px;
