@@ -75,6 +75,7 @@ function Main() {
           <IoIosArrowDropup />
         </button>
       )}
+
       {/* hero section */}
       <section id="heroSec" className="hero">
         <div className="container">
