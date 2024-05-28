@@ -77,7 +77,7 @@ function Main() {
       )}
       {/* hero section */}
       <section id="heroSec" className="hero">
-        <div className="container ">
+        <div className="container">
           <div className="hero-left">
             <h1>
               Hi I am
@@ -89,7 +89,6 @@ function Main() {
                 <Cursor cursorStyle="|" />
               </span>
             </h1>
-            {/* <p className="hero-left-p">FrontEnd Developer</p> */}
             <div className="hero-left-flex">
               <div className="hero-left-flex__f">
                 <a href="https://t.me/Developer_frontendd">

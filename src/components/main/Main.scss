@@ -22,7 +22,7 @@
         position: absolute;
         top: 735px;
         right: 80%;
-        left: 47%;
+        left: 45%;
         justify-content: space-between;
         transform: translateY(-50%);
         animation: arrowDown 1s infinite alternate;
@@ -118,6 +118,7 @@
           }
         }
       }
+
       .hero-right {
         padding-top: 110px;
         img {
@@ -903,6 +904,7 @@
     }
   }
 }
+
 @media (max-width: 550px) {
   .main {
     .hero {
@@ -931,6 +933,7 @@
     }
   }
 }
+
 @media (max-width: 660px) {
   .main {
     .contact {
@@ -986,6 +989,7 @@
     }
   }
 }
+
 @media (max-width: 670px) {
   .main {
     .contact {
@@ -998,6 +1002,7 @@
     }
   }
 }
+
 @media (max-width: 880px) {
   .main {
     .about {
@@ -1009,6 +1014,7 @@
     }
   }
 }
+
 @media (max-width: 550px) {
   .main {
     .about {
