@@ -1,5 +1,5 @@
 import "./Main.scss";
-import About from "../../assets/images/about.jpg";
+import About from "../../assets/images/ME.jpg";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";

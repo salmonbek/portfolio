@@ -42,16 +42,15 @@
       }
 
       display: grid;
-      gap: 60px;
+      // gap: 20;
       grid-template-columns: repeat(2, 1fr);
-      justify-content: space-between;
+
       .hero-left {
         padding-top: 241px;
         h1 {
           font-weight: 600;
           font-family: Roboto;
           font-size: 50px;
-          // color: #1b075d;
           color: #d7d7d7;
         }
         span {
@@ -120,12 +119,27 @@
 
       .hero-right {
         padding-top: 110px;
+        width: 100%;
+        height: 0;
+        top: 130px;
+        padding-top: 100%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 2px solid red;
+
         img {
-          width: 99%;
-          padding-top: 130px;
-          border: 1px solid #dcddeb;
-          border-radius: 100%;
-          padding: 4px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          width: 100%;
+          &:hover {
+            transform: scale(1.1);
+            transition: 0.7s;
+          }
         }
       }
     }
@@ -228,7 +242,7 @@
         align-items: center;
         padding: 70px 70px;
         width: 100%;
-        // padding-bottom: 56px;
+
         border-radius: 10px;
 
         .icon * {
@@ -269,16 +283,22 @@
     padding-bottom: 120px;
     .container {
       .scroll-reveal span {
-        color: hsla(0, 0%, 84%, 0.2);
+        color: hsla(0, 0%, 41%, 0.2);
         background-clip: text;
         background-repeat: no-repeat;
         background-size: 0% 100%;
         background-image: linear-gradient(
-          rgb(255, 196, 196),
-          rgb(160, 160, 255)
+          rgb(255, 255, 255),
+          rgb(13, 250, 111)
         );
         animation: scroll-reveal linear forwards;
         animation-timeline: view(y);
+        position: relative; /* Ensure the element is positioned for pseudo-element usage */
+
+        /* Adding a subtle glowing shadow effect */
+        text-shadow: 0 0 3px rgba(255, 255, 255, 0.3),
+          0 0 6px rgba(13, 250, 111, 0.3), 0 0 9px rgba(13, 250, 111, 0.3),
+          0 0 12px rgba(13, 250, 111, 0.3);
       }
       .scroll-reveal h1 span {
         animation-range-start: cover 20vh;
@@ -301,7 +321,6 @@
       }
       h1 {
         font-family: Roboto;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         line-height: 1;
         display: flex;
         justify-content: center;
@@ -495,16 +514,22 @@
     padding-bottom: 150px;
     .container {
       .scroll-reveal span {
-        color: hsla(0, 0%, 84%, 0.2);
+        color: hsla(0, 0%, 41%, 0.2);
         background-clip: text;
         background-repeat: no-repeat;
         background-size: 0% 100%;
         background-image: linear-gradient(
-          rgb(241, 126, 126),
-          rgb(106, 106, 244)
+          rgb(255, 255, 255),
+          rgb(13, 250, 111)
         );
         animation: scroll-reveal linear forwards;
         animation-timeline: view(y);
+        position: relative; /* Ensure the element is positioned for pseudo-element usage */
+
+        /* Adding a subtle glowing shadow effect */
+        text-shadow: 0 0 3px rgba(255, 255, 255, 0.3),
+          0 0 6px rgba(13, 250, 111, 0.3), 0 0 9px rgba(13, 250, 111, 0.3),
+          0 0 12px rgba(13, 250, 111, 0.3);
       }
       .scroll-reveal h1 span {
         animation-range-start: cover 20vh;
@@ -533,7 +558,6 @@
         text-align: left;
         padding-bottom: 35px;
         padding-bottom: 10px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
       }
       .skills-card {
         display: flex;
@@ -604,11 +628,17 @@
         background-repeat: no-repeat;
         background-size: 0% 100%;
         background-image: linear-gradient(
-          rgb(241, 126, 126),
-          rgb(106, 106, 244)
+          rgb(255, 255, 255),
+          rgb(13, 250, 111)
         );
         animation: scroll-reveal linear forwards;
         animation-timeline: view(y);
+        position: relative; /* Ensure the element is positioned for pseudo-element usage */
+
+        /* Adding a subtle glowing shadow effect */
+        text-shadow: 0 0 3px rgba(255, 255, 255, 0.3),
+          0 0 6px rgba(13, 250, 111, 0.3), 0 0 9px rgba(13, 250, 111, 0.3),
+          0 0 12px rgba(13, 250, 111, 0.3);
       }
       .scroll-reveal h1 span {
         animation-range-start: cover 20vh;
@@ -638,7 +668,6 @@
         line-height: 2px;
         letter-spacing: 0em;
         text-align: left;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
       }
       .link-see {
         display: inline-block;
@@ -683,7 +712,6 @@
 
         padding-bottom: 35px;
         padding-bottom: 80px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
       }
       .work-card {
         display: grid;
@@ -740,7 +768,6 @@
   }
   .contact {
     padding-bottom: 177px; /* Sets padding at the bottom */
-
     .container {
       .scroll-reveal span {
         color: hsla(0, 0%, 41%, 0.2);
@@ -753,7 +780,14 @@
         );
         animation: scroll-reveal linear forwards;
         animation-timeline: view(y);
+        position: relative; /* Ensure the element is positioned for pseudo-element usage */
+
+        /* Adding a subtle glowing shadow effect */
+        text-shadow: 0 0 3px rgba(255, 255, 255, 0.3),
+          0 0 6px rgba(13, 250, 111, 0.3), 0 0 9px rgba(13, 250, 111, 0.3),
+          0 0 12px rgba(13, 250, 111, 0.3);
       }
+
       .scroll-reveal h1 span {
         animation-range-start: cover 20vh;
         animation-range-end: cover 30vh;
@@ -847,7 +881,7 @@
       .contact-card .child1 *:hover {
         transform: translateY(-5px);
       }
-      aa .contact-card::before {
+      .contact-card::before {
         content: "";
         position: absolute;
         top: 0;
@@ -858,11 +892,10 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 0.2; /* Bu yerda opacity ni kerakli qiymatga o'zgartiring */
+        opacity: 0.2;
         z-index: -1;
-        border-radius: 10px; /* Bu yerda border-radius ni ham qo'llaymiz */
+        border-radius: 10px;
       }
-
       .contact-card p {
         font-family: Roboto;
         font-size: 20px;
@@ -917,9 +950,6 @@
 }
 @media (max-width: 550px) {
   .main {
-    .hero {
-      margin-top: -10px;
-    }
     .work {
       .container {
         .work-card {
@@ -969,10 +999,8 @@
 @media (max-width: 550px) {
   .main {
     .hero {
+      margin-bottom: 100px;
       .container {
-        .hero-right {
-          padding-top: 40px;
-        }
         gap: 0;
         .hero-left {
           padding-top: 150px;
@@ -988,6 +1016,7 @@
           }
           .hero-left-flex {
             flex-direction: column;
+            margin-bottom: -100px;
           }
         }
       }
