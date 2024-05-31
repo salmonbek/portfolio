@@ -326,16 +326,14 @@ function Main() {
           </div>
           <div className="work-card">
             <div className="work-card-item">
-              <img className="img-project" src={Project1} alt="" />
+              <img className="img-project" src={Project11} alt="" />
               <div className="work-card-item__flex">
-                <h3>FindCountries in JavaScript</h3>
+                <h3>Dashboard in TypeScript,bootstrap,Ant</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Blanditiis, eius?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur, ut.
                 </p>
-                <a href="https://comforting-gnome-2e3ceb.netlify.app">
-                  View project
-                </a>
+                <a href="https://github.com/salmonbek/task7-6.git">View code</a>
                 <span>
                   <SiNetlify />
                 </span>
@@ -433,19 +431,22 @@ function Main() {
               </div>
             </div>
             <div className="work-card-item">
-              <img className="img-project" src={Project11} alt="" />
+              <img className="img-project" src={Project1} alt="" />
               <div className="work-card-item__flex">
-                <h3>Dashboard in TypeScript,bootstrap</h3>
+                <h3>FindCountries in JavaScript</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur, ut.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Blanditiis, eius?
                 </p>
-                <a href="https://github.com/salmonbek/task7-6.git">View code</a>
+                <a href="https://comforting-gnome-2e3ceb.netlify.app">
+                  View project
+                </a>
                 <span>
                   <SiNetlify />
                 </span>
               </div>
             </div>
+
             <div className="work-card-item">
               <img className="img-project" src={Spotify} alt="" />
               <div className="work-card-item__flex">
