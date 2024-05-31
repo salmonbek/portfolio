@@ -10,7 +10,7 @@
     font-size: 50px;
     z-index: 100;
     & * {
-      color: rgb(20, 161, 199);
+      color: rgb(87, 241, 110);
     }
   }
   .hero {
@@ -135,7 +135,7 @@
           width: 100%;
           height: 100%;
           object-fit: cover;
-          width: 100%;
+
           &:hover {
             transform: scale(1.1);
             transition: 0.7s;
@@ -196,6 +196,9 @@
         }
         // start scroll animation text
 
+        /* Keyframes for the animation */
+
+        /* Initial styles for the p element */
         p {
           font-family: Roboto;
           margin-right: auto;
@@ -208,9 +211,16 @@
           color: #999cb6;
           max-width: 648px;
           margin-bottom: 28px;
-          span {
-            color: rgb(148, 130, 28);
-          }
+        }
+
+        p span {
+          color: rgb(148, 130, 28);
+        }
+
+        /* Animation class to apply when in view */
+        p.scroll-in {
+          animation: scrollIn 1s ease-out forwards;
+          visibility: visible; /* Make it visible when the animation starts */
         }
       }
       .icon-line {
@@ -767,8 +777,22 @@
     }
   }
   .contact {
-    padding-bottom: 177px; /* Sets padding at the bottom */
+    margin-bottom: 100px;
     .container {
+      .form {
+        display: flex;
+        margin-top: 50px;
+        gap: 20px;
+        flex-direction: column;
+
+        width: 100%;
+        input {
+          border: none;
+          outline: none;
+          border-radius: 4px;
+          padding: 10px 30px;
+        }
+      }
       .scroll-reveal span {
         color: hsla(0, 0%, 41%, 0.2);
         background-clip: text;
