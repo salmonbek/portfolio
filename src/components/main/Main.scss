@@ -15,7 +15,7 @@
   }
   .hero {
     width: 98%;
-    padding-bottom: 270px;
+    padding-bottom: 330px;
     .container {
       .arrow {
         position: absolute;
@@ -42,7 +42,7 @@
       }
 
       display: grid;
-      // gap: 20;
+      gap: 150px;
       grid-template-columns: repeat(2, 1fr);
 
       .hero-left {
@@ -118,11 +118,12 @@
       }
 
       .hero-right {
-        padding-top: 110px;
-        width: 100%;
+        margin-top: 60px;
+        padding-top: 90px; /* Doiraning balandligini kamaytirish */
+        width: 80%; /* Doiraning kengligini kamaytirish */
         height: 0;
-        top: 130px;
-        padding-top: 100%;
+        top: 100px; /* Doirani yuqoriga siljitish */
+        padding-top: 80%; /* Doiraning shaklini saqlash uchun proporsiyani o'zgartirish */
         position: relative;
         overflow: hidden;
         border-radius: 50%;
@@ -1024,7 +1025,11 @@
   .main {
     .hero {
       margin-bottom: 100px;
+
       .container {
+        .hero-right {
+          margin-left: 40px;
+        }
         gap: 0;
         .hero-left {
           padding-top: 150px;
