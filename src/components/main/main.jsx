@@ -243,6 +243,18 @@ function Main() {
               </p>
             </div>
           </div>
+          <div className="request-area">
+            <p className="description">
+              Dears, if you want to open your own website, we offer you our
+              services called IT WORLD, fill this form and we will contact you
+              soon.
+            </p>
+            <div className="center">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4705PjWQ7l8LgJRo8D64evyHeBH0IhN_1Gc--UQ5FgnRmtw/viewform">
+                Send request
+              </a>
+            </div>
+          </div>
         </div>
       </section>
       {/* service section  */}

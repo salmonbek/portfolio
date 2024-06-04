@@ -35,9 +35,9 @@ header {
       background-color: aliceblue;
       font-family: Roboto;
       &:hover {
-        transition: 0.3s;
-        color: #fffcfc;
-        background-color: #3c393f;
+        background: rgb(95, 233, 95);
+        color: #ffffff;
+        transition: all 0.2s ease-in-out;
       }
     }
   }
