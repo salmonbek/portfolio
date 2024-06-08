@@ -285,7 +285,6 @@ function Main() {
               </div>
               <div className="skills-card__items">
                 <FaBootstrap />
-
                 <h3>Bootstrap</h3>
               </div>
               <div className="skills-card__items">
