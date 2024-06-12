@@ -42,7 +42,7 @@ function Header() {
         <button className="nav-btn btn-open" onClick={showNavbar}>
           <IoMdMenu />
         </button>
-        <a className="contact" href="#Contactsec">
+        <a className="contact" href="https://avtomatika-uz.vercel.app/">
           Contact
         </a>
       </div>
