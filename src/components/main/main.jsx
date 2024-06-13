@@ -41,6 +41,7 @@ import { useEffect, useState } from "react";
 import { FaVolleyballBall } from "react-icons/fa";
 import { VscFoldDown } from "react-icons/vsc";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+import HeroBg from "../../assets/videos/video.mp4";
 
 function Main() {
   const [backToTopButton, setBackTopButton] = useState(false);
@@ -78,6 +79,9 @@ function Main() {
 
       {/* hero section */}
       <section id="heroSec" className="hero">
+        <video className="video-bg" autoPlay muted loop>
+          <source src={HeroBg} type="video/mp4" />
+        </video>
         <div className="container">
           <div className="hero-left">
             <h1>

@@ -2,15 +2,14 @@ header {
   position: fixed;
   width: 100%;
   padding: 20px 0;
-  background: linear-gradient(#51138a, #12072d);
+  background: linear-gradient(#000000, #12072d);
   z-index: 200;
+  transition: top 0.3s;
+  top: 0; // Default top value
+  &.hidden {
+    top: -100px; // Hidden top value
+  }
   .container {
-    .burger {
-      padding: 10px 50px;
-      background-color: bisque;
-      color: black;
-      border-radius: 4px;
-    }
     display: flex;
     align-items: center;
     justify-content: space-between;
