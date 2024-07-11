@@ -96,16 +96,19 @@ function Main() {
             </h1>
             <div className="hero-left-flex">
               <div className="hero-left-flex__f">
-                <a href="https://t.me/Developer_frontendd">
+                <a href="https://t.me/Developer_frontendd" target="_blank">
                   <FaTelegram />
                 </a>
-                <a href="https://www.instagram.com/akbarov_1s/">
+                <a href="https://www.instagram.com/akbarov_1s/" target="_blank">
                   <FaInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in/akbarov-salmonbek-862baa2b1/">
+                <a
+                  href="https://www.linkedin.com/in/akbarov-salmonbek-862baa2b1/"
+                  target="_blank"
+                >
                   <IoLogoLinkedin />
                 </a>
-                <a href="https://github.com/salmonbek">
+                <a href="https://github.com/salmonbek" target="_blank">
                   <FaGithub />
                 </a>
               </div>
