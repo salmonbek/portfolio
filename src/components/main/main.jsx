@@ -99,7 +99,7 @@ function Main() {
                 <a href="https://t.me/Developer_frontendd" target="_blank">
                   <FaTelegram />
                 </a>
-                <a href="https://www.instagram.com/akbarov_1s/" target="_blank">
+                <a href="https://www.instagram.com/salmon_d.w" target="_blank">
                   <FaInstagram />
                 </a>
                 <a
