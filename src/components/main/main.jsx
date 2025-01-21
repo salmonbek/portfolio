@@ -1,5 +1,7 @@
 import "./Main.scss";
-import About from "../../assets/images/ME.jpg";
+import { SiCodersrank } from "react-icons/si";
+
+import About from "../../assets/images/coder.jpg";
 import { FaTelegram } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -38,7 +40,6 @@ import { MdMarkEmailRead } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
 import { FaGlobe } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import { FaVolleyballBall } from "react-icons/fa";
 import { VscFoldDown } from "react-icons/vsc";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import HeroBg from "../../assets/videos/video.mp4";
@@ -153,16 +154,14 @@ function Main() {
               <div className="panel"></div>
               <div className="panel"></div>
               <div className="panel"></div>
-              <div className="panel"></div>
             </div>
             <p>
-              <span>Hey there!</span> I am Salmonbek I am a website developer
+              <span>Hey there!</span> I am Salmon Akbarov who website developer
               and I am currently gaining experience in this field. In the
               developing world infromation technology is becoming popular so I
-              am going to be strong programmer in this job that I am
-              learning.And also I gradueted last year I studied at Fergana
-              Politecnical institute as sistemotechnic engineer, Once again I
-              have ve been learning IT for 2023 at <span>NAJOT TALIM</span>.
+              am going to be strong programmer in this job that I am learning. I
+              have good experience in Javascrit programming language and also I
+              am learning other programming language like C++
             </p>
           </div>
           <div className="about-card">
@@ -191,14 +190,14 @@ function Main() {
                 <PiStudentBold />
               </div>
               <h4>DEGREE</h4>
-              <p>Bachelor</p>
+              <p>Master</p>
             </div>
             <div className="about-card-item">
               <div className="icon">
-                <FaVolleyballBall />
+                <SiCodersrank />
               </div>
               <h4>HOBBBY</h4>
-              <p> Voleyball</p>
+              <p> Coding</p>
             </div>
           </div>
           <div className="icon-line">

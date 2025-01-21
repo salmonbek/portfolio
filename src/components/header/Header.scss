@@ -2,12 +2,13 @@ header {
   position: fixed;
   width: 100%;
   padding: 20px 0;
-  background: linear-gradient(#000000, #12072d);
-  z-index: 200;
+  background: rgba(0, 0, 0, 0.804);
+  z-index: 100;
+  // backdrop-filter: blur(15px);
   transition: top 0.3s;
-  top: 0; // Default top value
+  top: 0; /* Default top value */
   &.hidden {
-    top: -100px; // Hidden top value
+    top: -100px; /* Hidden top value */
   }
   .container {
     display: flex;
@@ -21,6 +22,7 @@ header {
     nav {
       display: flex;
       align-items: center;
+      z-index: 250; /* Navbar is on top of the backdrop */
     }
     .btn-open * {
       width: 40px;
@@ -62,7 +64,7 @@ header .nav-btn {
 }
 
 @media (max-width: 768px) {
-  .header {
+  header {
     .container {
       .contact {
         display: none;
@@ -88,10 +90,18 @@ header .nav-btn {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgb(18, 104, 75);
-    background-attachment: fixed;
+    background-color: rgba(
+      18,
+      104,
+      75,
+      0.9
+    ); /* Slightly transparent background to allow backdrop blur effect */
+    backdrop-filter: blur(
+      15px
+    ); /* Apply backdrop blur for the entire nav on mobile */
     transition: 0.6s;
     transform: translateX(-100vh);
+    z-index: 350; /* Ensure nav is above the backdrop */
   }
   header .responsive_nav {
     transform: none;
