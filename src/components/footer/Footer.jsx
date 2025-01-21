@@ -51,7 +51,7 @@ function Footer() {
   }, [hasAnimated]);
 
   return (
-    <footer className="footer" ref={footerRef}>
+    <footer id="Footer" className="footer" ref={footerRef}>
       <a
         href={icons[currentIconIndex].link}
         target="_blank"

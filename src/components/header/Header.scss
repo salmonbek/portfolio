@@ -1,11 +1,14 @@
 header {
   position: fixed;
   width: 100%;
+
   padding: 20px 0;
   background: rgba(0, 0, 0, 0.804);
   z-index: 100;
   // backdrop-filter: blur(15px);
   transition: top 0.3s;
+  // left: 400px;
+  // border-radius: 10px;
   top: 0; /* Default top value */
   &.hidden {
     top: -100px; /* Hidden top value */
@@ -35,9 +38,11 @@ header {
       font-weight: 500;
       background-color: aliceblue;
       font-family: Roboto;
+      transition: all 0.2s ease-in-out;
       &:hover {
-        background: rgb(95, 233, 95);
         color: #ffffff;
+        box-shadow: inset 150px 60px rgb(95, 233, 95),
+          inset -150px -60px rgb(95, 100, 233);
         transition: all 0.2s ease-in-out;
       }
     }
