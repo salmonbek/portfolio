@@ -97,10 +97,13 @@ function Main() {
             </h1>
             <div className="hero-left-flex">
               <div className="hero-left-flex__f">
-                <a href="https://t.me/Developer_frontendd" target="_blank">
+                <a href="https://t.me/salmon_akbarov" target="_blank">
                   <FaTelegram />
                 </a>
-                <a href="https://www.instagram.com/salmon_d.w" target="_blank">
+                <a
+                  href="https://www.instagram.com/salmon_akbarov1"
+                  target="_blank"
+                >
                   <FaInstagram />
                 </a>
                 <a
